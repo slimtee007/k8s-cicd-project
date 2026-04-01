@@ -6,3 +6,4 @@ RUN echo "<h1>Hello from my CI/CD Pipeline!</h1>" > /usr/share/nginx/html/index.
 
 # Expose port 80
 EXPOSE 80
+echo "# Triggering new build with correct permissions" >> Dockerfile
