@@ -24,4 +24,4 @@ jobs:
           context: .
           push: true
           # Replace 'your-dockerhub-username' with your actual Docker Hub name
-          tags: your-dockerhub-username/k8s-cicd-app:latest
+          tags: slimtee/k8s-cicd-app:latest
