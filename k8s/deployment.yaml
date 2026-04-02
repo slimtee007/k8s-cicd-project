@@ -26,4 +26,6 @@ spec:
             - name: DB_USER
               value: "postgres"
             - name: DB_PASSWORD
-              value: "mysecretpassword" # We will move this to a Secret later!
+              valueFrom:
+                name: db-credentials
+                key: password 
