@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>K8s Cloud Dashboard</title>
+    <style>
+        body { font-family: sans-serif; background: #2c3e50; color: white; text-align: center; padding: 50px; }
+        .status { color: #2ecc71; font-weight: bold; }
+        .box { border: 1px solid #7f8c8d; padding: 20px; display: inline-block; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <h1>System Status: <span class="status">ONLINE</span></h1>
+    <div class="box">
+        <p>Database Host: <strong>postgres-service</strong></p>
+        <p>Connection: <strong>Established via K8s Secret</strong></p>
+    </div>
+    <p>Build Version: 2.0.0 (GitOps Managed)</p>
+</body>
+</html>
